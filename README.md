@@ -57,10 +57,26 @@ Open terminal and type the below command to generate release build <br/>
 
 # How to generate code coverage report ?
 
+** Mac and Linux **
+
 Open terminal and type the following command
 
 ```./gradlew clean jacocoTestReport```
 
+
+** Windows **
+
+```.\gradlew clean jacocoTestReport```
+
+
+make sure java_home path is add to system path and working
+
+
 The coverage report will be generated on the following path.
 
 ``` app/build/reports ```
+
+
+# Screenshots
+<img src="/screenshots/screenshot_unit_testing.png" width="346" height="615" alt="Home"/>
+<img src="/screenshots/screenshot_instrumental_testing.png" width="346" height="615" alt="Home"/>
