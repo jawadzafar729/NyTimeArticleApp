@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="articleDetailViewModel"
+            type="com.nytimes.articles.viewmodel.ArticleDetailsViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/loadingProgress"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/colorPrimary"
+            android:indeterminateTintMode="src_in"
+            android:visibility="visible" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/common_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textTitle"
+                    style="@style/TextViewLargeBold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_margin" />
+
+                <TextView
+                    android:id="@+id/textPublishedDate"
+                    style="@style/TextViewNormal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:textStyle="bold"
+                    android:layout_margin="@dimen/common_margin" />
+
+                <TextView
+                    android:id="@+id/textContent"
+                    style="@style/TextViewSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:justificationMode="inter_word"
+                    android:layout_margin="@dimen/common_margin"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</layout>
