@@ -81,8 +81,8 @@ The coverage report will be generated on the following path.
 
 **JUnit Code Coverage Tests Coverage Report**
 
-<img src="/screenshots/screenshot_unit_test_report.png" width="600" height="450" alt="JUnit Testing"/>
+<img src="/screenshots/screenshot_unit_test_report.png" width="500" height="350" alt="JUnit Testing"/>
 
-**JUnit Code Coverage Tests Coverage Report**
+**Esspreso UI Code Coverage Tests Coverage Report**
 
-<img src="/screenshots/screenshot_instumental_testing.png" width="600" height="450" alt="Esspresso Instumental UI Testing"/>
+<img src="/screenshots/screenshot_instumental_testing.png" width="500" height="350" alt="Esspresso Instumental UI Testing"/>
