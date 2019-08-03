@@ -1,4 +1,4 @@
-# Android MVVM Base Architecture for Enterprise Mobile Application using Architectural Components
+# NyTimeArticleApp with Android MVVM Base Architecture for Enterprise Mobile Application using Architectural Components
 
 # Highlights
 
