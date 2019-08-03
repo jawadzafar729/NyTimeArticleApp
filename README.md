@@ -78,5 +78,5 @@ The coverage report will be generated on the following path.
 
 
 # Screenshots
-<img src="/screenshots/screenshot_unit_testing.png" width="346" height="615" alt="Home"/>
-<img src="/screenshots/screenshot_instrumental_testing.png" width="346" height="615" alt="Home"/>
+<img src="/screenshots/screenshot_unit_test_report.png" width="700" height="600" alt="Home"/>
+<img src="/screenshots/screenshot_instumental_testing.png" width="700" height="600" alt="Home"/>
